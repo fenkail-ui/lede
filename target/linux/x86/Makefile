@@ -18,7 +18,7 @@ KERNELNAME:=bzImage
 include $(INCLUDE_DIR)/target.mk
 
 DEFAULT_PACKAGES += partx-utils mkf2fs e2fsprogs kmod-button-hotplug wpad kmod-usb-hid kmod-mmc-spi kmod-sdhci \
-kmod-pcnet32 kmod-tulip kmod-vmxnet3 kmod-r8125 kmod-8139cp kmod-8139too kmod-fs-f2fs cfdisk \
+kmod-vmxnet3 kmod-r8125 kmod-8139cp kmod-8139too kmod-fs-f2fs cfdisk \
 htop lm-sensors autocore-x86 automount autosamba luci-app-adbyby-plus luci-app-ipsec-vpnd luci-proto-bonding luci-app-unblockmusic luci-app-zerotier luci-app-xlnetacc ddns-scripts_aliyun ddns-scripts_dnspod ca-bundle luci-app-uugamebooster luci-app-qbittorrent \
 
 $(eval $(call BuildTarget))
